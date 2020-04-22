@@ -3,6 +3,7 @@ package library;
 public class PointsReturned extends AbstractEvent {
 
     private Long id;
+
     private Long pointQty;
 
     public PointsReturned(){
@@ -19,6 +20,7 @@ public class PointsReturned extends AbstractEvent {
     public Long getPointQty() {
         return pointQty;
     }
+
 
     public void setPointQty(Long pointQty) {
         this.pointQty = pointQty;
